@@ -31,7 +31,7 @@ export default function Home() {
                 {
                     data2.map((item,key) =>(
                         <div>
-                            <img className=' h-70' src={item.title} alt="" />
+                            <img className='w-100 h-70 md:h-70 md:w-70' src={item.title} alt="" />
                         </div>
                     ))
                 }

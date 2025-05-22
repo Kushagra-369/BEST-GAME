@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link, Element } from 'react-scroll';
 
 import image5 from '../assets/images/strange1.jpg'
 import image6 from '../assets/images/strange2.jpg'
@@ -18,7 +19,8 @@ export default function Home() {
     ];
 
   return (
-      <div className=' bg-blue-800 flex justify-center md:w-full w-150'>
+      <Element name  = "news">
+        <div className=' bg-blue-800 flex justify-center md:w-full w-150'>
         <div className='  rounded-4xl border-2 w-143  md:w-330 bg-white'>
          <div className=' py-20 md:flex ' >
         <div className='px-10 py-30 w-140 md:w-200'>
@@ -41,5 +43,6 @@ export default function Home() {
     </div>
       </div>
       </div>
+      </Element>
   )
 }

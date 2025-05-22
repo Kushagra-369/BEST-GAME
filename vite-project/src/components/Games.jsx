@@ -3,6 +3,8 @@ import image1 from '../assets/images/life1.jpg'
 import image2 from '../assets/images/life2.jpg'
 import image3 from '../assets/images/life3.jpg'
 import image4 from '../assets/images/life4.jpg'
+import { Link, Element } from 'react-scroll';
+
 
 export default function Games() {
 
@@ -14,7 +16,8 @@ export default function Games() {
     ];
 
     return (
-        <div className=' md:w-full w-150 bg-blue-800 text-white'>
+        <Element name = "games">
+            <div className=' md:w-full w-150 bg-blue-800 text-white'>
 
             <div className=' text-center py-20' >
                 <h1 className=' text-7xl font-bold'>Life is Strange Games</h1>
@@ -34,5 +37,6 @@ export default function Games() {
             </div>
 
         </div>
+        </Element>
     )
 }

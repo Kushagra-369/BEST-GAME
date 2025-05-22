@@ -1,8 +1,10 @@
 import React from 'react'
+import { Link, Element } from 'react-scroll';
 
 export default function Part4() {
     return (
-        <div className=' bg-blue-800 flex justify-center md:w-full w-150'>
+        <Element name = "new">
+            <div className=' bg-blue-800 flex justify-center md:w-full w-150'>
             <div className='  py-5 '>
             <div
             className=' h-[800px] w-143  rounded-4xl border-2  md:w-330'
@@ -33,5 +35,6 @@ export default function Part4() {
         </div>
         </div>
         </div>
+        </Element>
     )
 }

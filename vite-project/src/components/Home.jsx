@@ -18,7 +18,9 @@ export default function Home() {
     ];
 
   return (
-    <div className=' py-20 md:flex ' >
+      <div className=' bg-blue-800 flex justify-center'>
+        <div className='  rounded-4xl border-2  w-330 bg-white'>
+         <div className=' py-20 md:flex ' >
         <div className='px-10 py-30 w-140 md:w-200'>
                 <h1 className='text-2xl md:text-4xl font-bold'>The Official Home of</h1>
                 <h1 className=' py-10 items-center flex gap-1 font-extrabold'><h1 className='text-6xl md:text-8xl'>LIFE</h1><h1 className='text-3xl md:text-5xl'>IS</h1><h1 className='text-6xl md:text-8xl'>STRANGE</h1></h1>
@@ -37,5 +39,7 @@ export default function Home() {
                 }
         </div>
     </div>
+      </div>
+      </div>
   )
 }

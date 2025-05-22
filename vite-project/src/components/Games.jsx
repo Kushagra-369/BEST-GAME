@@ -21,11 +21,11 @@ export default function Games() {
             <h1 className=' py-10 text-2xl'>A series of thrilling supernatural mysteries to experience.</h1>
         </div>
 
-        <div className=' flex text-center justify-center gap-10'>
+        <div className=' flex text-center justify-center gap-10 py-0'>
             {
                     data.map((item,key) =>(
                         <div>
-                            <img className=' h-70' src={item.title} alt="" />
+                            <img className='px-5 w-50 h-40 md:h-70 md:w-70' src={item.title} alt="" />
                         </div>
                     ))
                 }

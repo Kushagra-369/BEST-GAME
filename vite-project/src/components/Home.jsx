@@ -18,10 +18,10 @@ export default function Home() {
     ];
 
   return (
-    <div className=' py-20 flex ' >
-        <div className='px-10 py-30 w-200'>
-                <h1 className=' text-4xl font-bold'>The Official Home of</h1>
-                <h1 className=' py-10 items-center flex gap-1 font-extrabold'><h1 className='text-8xl'>LIFE</h1><h1 className=' text-5xl'>IS</h1><h1 className='text-8xl'>STRANGE</h1></h1>
+    <div className=' py-20 md:flex ' >
+        <div className='px-10 py-30 w-140 md:w-200'>
+                <h1 className='text-2xl md:text-4xl font-bold'>The Official Home of</h1>
+                <h1 className=' py-10 items-center flex gap-1 font-extrabold'><h1 className='text-6xl md:text-8xl'>LIFE</h1><h1 className='text-3xl md:text-5xl'>IS</h1><h1 className='text-6xl md:text-8xl'>STRANGE</h1></h1>
                 <h1 className=' text-2xl'>Life is Strange is a series of award-winning, third-person narrative adventure games. You’ll step into the shoes of an ordinary person, gifted – or cursed – with an amazing power, and rise to face extraordinary challenges.</h1>
                 <h1 className='py-10 text-2xl'> Your story will intertwine with richly realized characters, vivid locations, and unforgettable emotions - and the hardest decisions are all yours to make.</h1>
                 <h1 className='py-10 text-2xl'>No matter your choices, these stories will stay with you forever.</h1>

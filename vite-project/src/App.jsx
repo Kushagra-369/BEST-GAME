@@ -1,6 +1,6 @@
 import React from 'react'
 import Navbar from './components/Navbar'
-import Part4 from './components/part4'
+import Part4 from './components/Part4'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
 export default function App() {

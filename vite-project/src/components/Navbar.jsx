@@ -73,7 +73,7 @@ export default function Navbar() {
                             <h1 className=' text-2xl text-red-500'> Join Now</h1>
                         </div>
                         </div>
-                        <div>
+                        <div className=' px-5'>
                             <h1 className=' text-white px-2 py-5 text-xl'>WHY JOIN?</h1>
                             <li>
                                 <ul className=' text-white px-5 py-1 text-xl'>Keep track of your Square Enix games library!</ul>

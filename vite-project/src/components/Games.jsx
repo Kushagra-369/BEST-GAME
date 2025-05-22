@@ -14,7 +14,7 @@ export default function Games() {
         ];
 
   return (
-    <div className=' bg-blue-800 text-white'>
+    <div className=' md:w-full w-150 bg-blue-800 text-white'>
         
         <div className=' text-center py-20' >
             <h1 className=' text-7xl font-bold'>Life is Strange Games</h1>

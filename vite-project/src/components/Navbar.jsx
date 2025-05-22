@@ -27,7 +27,8 @@ export default function Navbar() {
     }
 
     return (
-        <div className=' h-20 w-full bg-black flex justify-between gap-5  items-center px-5 '>
+        <div className='  md:w-full w-150'>
+            <div className=' h-20 w-full bg-black flex justify-between gap-5  items-center px-5 '>
 
             <div onClick={cross} className=' md:hidden block text-white text-2xl'>
                 {text ? <ImCross /> : <FaBars />}
@@ -90,6 +91,7 @@ export default function Navbar() {
 
                 </div>
             </div>
+        </div>
         </div>
     )
 }

@@ -18,7 +18,7 @@ export default function Home() {
     ];
 
   return (
-      <div className=' bg-blue-800 flex justify-center w-150'>
+      <div className=' bg-blue-800 flex justify-center md:w-full w-150'>
         <div className='  rounded-4xl border-2 w-143  md:w-330 bg-white'>
          <div className=' py-20 md:flex ' >
         <div className='px-10 py-30 w-140 md:w-200'>

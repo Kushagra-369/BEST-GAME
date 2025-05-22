@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Part4() {
     return (
-        <div className=' bg-blue-800 flex justify-center w-150'>
+        <div className=' bg-blue-800 flex justify-center md:w-full w-150'>
             <div className='  py-5 '>
             <div
             className=' h-[800px] w-143  rounded-4xl border-2  md:w-330'

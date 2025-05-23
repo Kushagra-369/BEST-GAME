@@ -22,13 +22,14 @@ export default function Part4() {
                 <h1>Two Timelines.</h1>
                 <h1 className=' py-4 text-red-500'>One Impossible Mystery.</h1>
                 <div className=' flex gap-10 py-10'>
-                    <a href=""><div className='text-center items-center border-6 border-red-600 hover:border-amber-300 h-15 w-60 bg-white rounded-4xl'>
+                    <a href="https://youtu.be/TOYz4NCFIXg?feature=shared"><div className='hover:bg-cyan-300 text-center items-center border-6 border-red-600 hover:border-amber-300 h-15 w-60 bg-white rounded-4xl'>
                         <h1 className=' py-2 text-black text-2xl '>Watch Trailer</h1>
                     </div></a>
-                    <div className=' text-center border-6 border-amber-300 h-15 w-60 hover:border-red-600 bg-white rounded-4xl'>
+                    <a href="">
+                    <div className='hover:bg-cyan-300 text-center border-6 border-amber-300 h-15 w-60 hover:border-red-600 bg-white rounded-4xl'>
                         <h1 className=' py-2 text-black text-2xl  '>Learn More</h1>
                     </div>
-
+                    </a>
                 </div>
             </div>
 

@@ -31,11 +31,11 @@ export default function Home() {
                 <h1 className='py-10 text-2xl'>No matter your choices, these stories will stay with you forever.</h1>
         </div>
 
-        <div className=' grid grid-cols-2 gap-10'>
+        <div className=' grid grid-cols-2 gap-5'>
                 {
                     data2.map((item,key) =>(
                         <div>
-                            <img className='w-100 h-70 md:h-70 md:w-70' src={item.title} alt="" />
+                            <img className=' w-100 h-70 md:h-80 md:w-70' src={item.title} alt="" />
                         </div>
                     ))
                 }

@@ -14,6 +14,7 @@ export default function Navbar() {
         { title1: "News", title2: "news" },
         { title1: "Store ", title2: "new" },
         { title1: "Support ", title2: "support" },
+        { title1: "Best one ", title2: "best" },
     ]
 
 
@@ -40,7 +41,7 @@ export default function Navbar() {
                             {
                                 data.map((item, key) => (
                                     <Link to={item.title2} smooth={true} duration={600} onClick={cross}>
-                                        <a href="" key={key}><h1 className='py-10 hover:text-red-500'>{item.title1}</h1></a>
+                                        <a href="" key={key}><h1 className=' py-5 md:py-10 hover:text-red-500'>{item.title1}</h1></a>
                                     </Link>
                                 ))
                             }

@@ -12,7 +12,16 @@ export default function About() {
         <Element name = "support">
             <div className=' md:w-full w-150 bg-blue-800 flex justify-center  '>
             <div className=' py-20 bg-black   rounded-2xl  w-143  md:w-330'>
-
+                    <div className=' px-10 flex justify-center '>
+                    <select className="text-black px-5 text-xl p-3 text-center rounded-md  bg-white w-100 "
+                        defaultValue="">
+                        <option value=""> ENGLISH </option>
+                        <option value="standard"> HINDI </option>
+                        <option value="standard">JAPANESE</option>
+                        <option value="standard">FRENCH</option>
+                        <option value="standard">PORTUGESE</option>
+                    </select>
+                </div>
                 <div className=' py-10 text-4xl flex  justify-center gap-20 text-gray-400'>
                     <a href=""><h1 className=' hover:text-gray-100 '><FaYoutube /></h1></a>
                     <a href=""> <h1 className=' hover:text-gray-100 '><FaLinkedinIn /></h1></a>

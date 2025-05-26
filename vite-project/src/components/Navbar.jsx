@@ -29,7 +29,7 @@ export default function Navbar() {
     }
 
     return (
-        <div className='  w-150'>
+        <div className='  w-150 md:w-full'>
             <div className=' h-20 w-full bg-black flex justify-between gap-5  items-center px-5 '>
 
                 <div onClick={cross} className=' md:hidden block text-white text-2xl'>

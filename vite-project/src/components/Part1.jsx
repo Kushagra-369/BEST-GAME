@@ -4,12 +4,12 @@ import { Link, Element } from 'react-scroll';
 export default function Part1() {
     return (
         <Element name="best">
-            <div className=' bg-blue-800  w-150 '>
+            <div className=' bg-blue-800  w-150 md:w-full '>
                 <div className='flex justify-center px-2 py-5 '>
                     <div
-                        className='relative h-[400px] md:h-[800px] rounded-4xl border-2 w-full bg-cover bg-no-repeat object-center object-cover '
+                        className='relative  h-[400px] md:h-[800px] p-2 rounded-4xl border-2 w-full bg-cover bg-no-repeat object-center object-cover '
                     >
-                        <div className="absolute top-0 left-0 w-full h-full z-0 p-2 rounded-2xl  overflow-hidden">
+                        <div className="absolute top-0 left-0 w-full h-full z-0  rounded-2xl  overflow-hidden">
                             <iframe
                                 className="w-full h-full object-cover"
                                 src="https://www.youtube.com/embed/AURVxvIZrmU?autoplay=1&mute=1&controls=0&loop=1&playlist=AURVxvIZrmU"

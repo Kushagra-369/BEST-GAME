@@ -4,7 +4,7 @@ import { Link, Element } from 'react-scroll';
 export default function Part4() {
     return (
         <Element name = "new">
-            <div className='  bg-blue-800  w-150 '>
+            <div className='  bg-blue-800 w-150 md:w-full'>
             <div className=' px-2  py-5 flex justify-center '>
             <div
             className=' md:h-[800px] h-[400px] rounded-4xl border-2 w-full  bg-cover bg-no-repeat object-center object-cover'

@@ -10,7 +10,7 @@ export default function About() {
 
     return (
         <Element name = "support">
-            <div className=' md:w-full w-150 bg-blue-800 px-2 flex justify-center  '>
+            <div className='  w-full bg-blue-800 px-2 flex justify-center  '>
             <div className=' py-20 bg-black   rounded-2xl w-full'>
                     <div className=' px-10 flex justify-center '>
                     <select className="text-black px-5 text-xl p-3 text-center rounded-md  bg-white w-100 "

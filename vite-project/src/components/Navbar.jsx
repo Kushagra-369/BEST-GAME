@@ -29,7 +29,7 @@ export default function Navbar() {
     }
 
     return (
-        <div className='  md:w-full w-150'>
+        <div className='  w-full'>
             <div className=' h-20 w-full bg-black flex justify-between gap-5  items-center px-5 '>
 
                 <div onClick={cross} className=' md:hidden block text-white text-2xl'>
@@ -66,7 +66,7 @@ export default function Navbar() {
                         }
                     </div>
                     <div className=' flex gap-20 text-4xl ' >
-                        <a href=""> <h1 className=' hover:text-gray-100'> <FaShoppingCart /></h1></a>
+                        <a href="https://na.store.square-enix-games.com/cart.php"> <h1 className=' hover:text-gray-100'> <FaShoppingCart /></h1></a>
                         <a href="#" onClick={cross2} className=' text-4xl hover:text-gray-100'>
                             {text2 ? <RxCross1 /> : <IoMdPerson />}
                             {
@@ -74,7 +74,7 @@ export default function Navbar() {
                                     <ul className=' text-4xl  fixed top-20 right-0 h-120 w-120 bg-black  z-40 shadow-lg transition-all duration-300'>
                                         <div className=' text-center items-center  p-10'>
                                             <div className='text-white items-center border-2 border-red-600 h-20 w-100 px-5 py-4 right-2 bg-red-600'>
-                                                <h1>LOGIN</h1>
+                                                <a href="https://membership.square-enix.com/users/sign_in"><h1>LOGIN</h1></a>
                                             </div>
                                             <div>
                                                 <h1 className=' text-xl py-4'>Not a Square Enix Member?</h1>

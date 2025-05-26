@@ -4,16 +4,25 @@ import { Link, Element } from 'react-scroll';
 export default function Part1() {
     return (
         <Element name="best">
-            <div className=' bg-blue-800  md:w-full w-150'>
+            <div className=' bg-blue-800  w-full '>
                 <div className='flex justify-center px-2 py-5 '>
                     <div
-                        className=' h-[400px] md:h-[800px]   rounded-4xl border-2  w-full bg-cover bg-no-repeat object-center object-cover'
-                        style={{
-                            backgroundImage: 'url(https://theafictionado.wordpress.com/wp-content/uploads/2015/11/lis-416.jpg?w=584)',
-                            
-                        }}
+                        className='relative h-[400px] md:h-[800px] rounded-4xl border-2 w-full bg-cover bg-no-repeat object-center object-cover '
                     >
-                        <div className=' text-4xl md:text-6xl flex justify-between text-white items-center  py-10 md:py-30 font-extrabold  '>
+                        <div className="absolute top-0 left-0 w-full h-full z-0 p-2 rounded-2xl  overflow-hidden">
+                            <iframe
+                                className="w-full h-full object-cover"
+                                src="https://www.youtube.com/embed/AURVxvIZrmU?autoplay=1&mute=0&controls=0&loop=1&playlist=AURVxvIZrmU"
+                                frameBorder="0"
+                                allow="autoplay; fullscreen"
+                                allowFullScreen
+                                
+                            ></iframe>
+                        </div>
+
+                        <div className="absolute top-0 left-0 w-full h-full bg-black opacity-50 z-10"></div>
+
+                        <div className=' relative z-20 text-4xl md:text-6xl flex justify-between text-white items-center  py-10 md:py-30 font-extrabold  '>
                             <div>
 
                             </div>
@@ -28,8 +37,8 @@ export default function Part1() {
                                 <div className=' flex gap-10 py-10 px-5 md:px-15'>
                                     <a href="https://youtu.be/AURVxvIZrmU?feature=shared">
                                         <div className='text-center items-center border-6 border-red-600 hover:border-amber-300 h-15 w-60 bg-white rounded-4xl hover:bg-cyan-300'>
-                                        <h1 className=' py-2 text-black text-2xl '>Watch Trailer</h1>
-                                    </div></a>
+                                            <h1 className=' py-2 text-black text-2xl '>Watch Trailer</h1>
+                                        </div></a>
                                     <a href="">
                                         <div className=' hover:bg-cyan-300 text-center border-6 border-amber-300 h-15 w-60 hover:border-red-600 bg-white rounded-4xl'>
                                             <h1 className=' py-2 text-black text-2xl  '>Learn More</h1>

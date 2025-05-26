@@ -12,7 +12,7 @@ export default function Part1() {
                         <div className="absolute top-0 left-0 w-full h-full z-0 p-2 rounded-2xl  overflow-hidden">
                             <iframe
                                 className="w-full h-full object-cover"
-                                src="https://www.youtube.com/embed/AURVxvIZrmU?autoplay=1&mute=0&controls=0&loop=1&playlist=AURVxvIZrmU"
+                                src="https://www.youtube.com/embed/AURVxvIZrmU?autoplay=1&mute=1&controls=0&loop=1&playlist=AURVxvIZrmU"
                                 frameBorder="0"
                                 allow="autoplay; fullscreen"
                                 allowFullScreen

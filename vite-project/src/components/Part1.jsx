@@ -7,21 +7,19 @@ export default function Part1() {
             <div className=' bg-blue-800  md:w-full w-150'>
                 <div className='flex justify-center  py-5 '>
                     <div
-                        className=' h-[800px] w-143  rounded-4xl border-2  md:w-330'
+                        className=' h-[400px] md:h-[800px] w-143  rounded-4xl border-2  md:w-390 bg-cover bg-no-repeat object-center object-cover'
                         style={{
                             backgroundImage: 'url(https://theafictionado.wordpress.com/wp-content/uploads/2015/11/lis-416.jpg?w=584)',
-                            backgroundRepeat: 'no-repeat',
-                            backgroundSize: 'cover',
-                            backgroundPosition: 'center'
+                            
                         }}
                     >
-                        <div className=' text-4xl md:text-6xl flex justify-between text-white items-center  py-30 font-extrabold  '>
+                        <div className=' text-4xl md:text-6xl flex justify-between text-white items-center  md:py-30 font-extrabold  '>
                             <div>
 
                             </div>
 
                             <div>
-                                <h1 className=' text-black flex md:text-white items-center gap-2 italic px-3 '>
+                                <h1 className='  flextext-white items-center gap-2 italic px-3 '>
                                     <h1 className='text-6xl md:text-8xl'>LIFE</h1> <h1 className=' text-2xl md:text-4xl'>IS </h1> <h1 className='text-6xl md:text-8xl'>STRANGE</h1>
                                 </h1>
                                 <h1 className=' text-cyan-300 items-center py-10 px-10'> Till now the best</h1>

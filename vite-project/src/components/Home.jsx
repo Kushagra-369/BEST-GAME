@@ -20,7 +20,7 @@ export default function Home() {
 
   return (
       <Element name  = "news">
-        <div className=' bg-blue-800 flex justify-center px-2 w-full'>
+        <div className=' bg-blue-800 flex justify-center px-2 w-150'>
         <div className='  rounded-4xl border-2 w-full bg-white'>
          <div className=' py-20 md:flex ' >
         <div className='px-10 py-30 w-140 md:w-200'>

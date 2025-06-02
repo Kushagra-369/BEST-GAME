@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link, Element } from 'react-scroll';
 
-export default function Part4() {
+export default function Part4e() {
     return (
         <Element name = "new">
             <div className='  bg-blue-800 w-150 md:w-full'>
@@ -13,16 +13,16 @@ export default function Part4() {
             <div className=' text-4xl md:text-6xl text-white items-center px-5 py-5 md:py-50 font-extrabold'>
                 <h1 className=' text-white'>LIFE IS STRANGE</h1>
                 <h1 className='  text-white px-5'>Double Exposure</h1>
-                <h1 className=' text-cyan-300 items-center py-5 md:py-10'>Out now</h1>
-                <h1>Two Timelines.</h1>
-                <h1 className=' py-4 text-red-500'>One Impossible Mystery.</h1>
+                <h1 className=' text-cyan-300 items-center py-5 md:py-10'>Fora agora</h1>
+                <h1>Duas linhas do tempo.</h1>
+                <h1 className=' py-4 text-red-500'>Um mistério impossível.</h1>
                 <div className=' flex gap-10 py-5 md:py-10'>
-                    <a href="https://youtu.be/TOYz4NCFIXg?feature=shared"><div className='hover:bg-cyan-300 text-center items-center border-6 border-red-600 hover:border-amber-300 h-15 w-60 bg-white rounded-4xl'>
-                        <h1 className=' py-2 text-black text-2xl '>Watch Trailer</h1>
+                    <a href="https://youtu.be/TOYz4NCFIXg?feature=shared"><div className='hover:bg-cyan-300 text-center items-center border-6 border-red-600 hover:border-amber-300 h-15 md:h-25 w-60 bg-white rounded-4xl'>
+                        <h1 className=' py-2 text-black text-xl md:text-2xl '>Assistir ao trailer</h1>
                     </div></a>
                     <a href="">
-                    <div className='hover:bg-cyan-300 text-center border-6 border-amber-300 h-15 w-60 hover:border-red-600 bg-white rounded-4xl'>
-                        <h1 className=' py-2 text-black text-2xl  '>Learn More</h1>
+                    <div className='hover:bg-cyan-300 text-center border-6 border-amber-300 h-15 md:h-25 w-60 hover:border-red-600 bg-white rounded-4xl'>
+                        <h1 className=' py-2 text-black text-xl md:text-2xl  '>Saber mais</h1>
                     </div>
                     </a>
                 </div>

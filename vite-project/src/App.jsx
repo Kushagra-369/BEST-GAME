@@ -2,9 +2,13 @@ import React from 'react'
 import Navbar from './components/Navbar'
 import Navbar2 from './components2/Navbar2.jsx'
 import Navbar3 from './components3/Navbar3.jsx'
+import Navbar4 from './components4/Navbar4.jsx'
+import Navbar5 from './components5/Navbar5.jsx'
 import Part4 from './components/Part4'
 import Part4b from './components2/Part4b.jsx'
 import Part4c from './components3/Part4c.jsx'
+import Part4d from './components4/Part4d.jsx'
+import Part4e from './components5/Part4e.jsx'
 import Home from './components/Home'
 import Home2 from './components2/Home2.jsx'
 import Home3 from './components3/Home3.jsx'
@@ -20,10 +24,11 @@ import About2 from './components2/About2.jsx'
 import About3 from './components3/About3.jsx'
 import About4 from './components4/About4.jsx'
 import About5 from './components5/About5.jsx'
+import Part1 from './components/Part1'
 import Part1b from './components2/Part1b.jsx'
 import Part1c from './components3/Part1c.jsx'
-import Part1 from './components/Part1'
-
+import Part1d from './components4/Part1d.jsx'
+import Part1e from './components5/Part1e.jsx'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
 export default function App() {
@@ -34,18 +39,24 @@ export default function App() {
           <Route path='' element={<Navbar />} />
           <Route path='about2' element={<Navbar2 />} />
           <Route path='about3' element={<Navbar3 />} />
+          <Route path='about4' element={<Navbar4 />} />
+          <Route path='about5' element={<Navbar5 />} />
 
         </Routes>
         <Routes>
           <Route path='' element={<Part4 />} />
           <Route path='about2' element={<Part4b />} />
           <Route path='about3' element={<Part4c />} />
+          <Route path='about4' element={<Part4d />} />
+          <Route path='about5' element={<Part4e />} />
 
         </Routes>
         <Routes>
           <Route path='' element={<Part1 />} />
           <Route path='about2' element={<Part1b />} />
           <Route path='about3' element={<Part1c />} />
+          <Route path='about4' element={<Part1d />} />
+          <Route path='about5' element={<Part1e />} />
 
         </Routes>        <Routes>
           <Route path='' element={<Home />} />

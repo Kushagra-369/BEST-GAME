@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link, Element } from 'react-scroll';
 
-export default function Part1() {
+export default function Part1d() {
     return (
         <Element name="best">
             <div className=' bg-blue-800  w-150 md:w-full '>
@@ -31,17 +31,17 @@ export default function Part1() {
                                 <h1 className='  flex text-white items-center gap-2 italic px-3 '>
                                     <h1 className='text-5xl md:text-8xl'>LIFE</h1> <h1 className=' text-xl md:text-4xl'>IS </h1> <h1 className='text-5xl md:text-8xl'>STRANGE</h1>
                                 </h1>
-                                <h1 className=' text-cyan-300 items-center py-5 md:py-10 px-10'> Till now the best</h1>
-                                <h1 className=' px-15'>Reverse the TIME.</h1>
-                                <h1 className=' py-4 px-10 text-red-500'>Who Will Survive ?</h1>
+                                <h1 className=' text-cyan-300 items-center py-5 md:py-10 px-10'> Jusqu'à présent le meilleur</h1>
+                                <h1 className=' px-15'>Inversez le TEMPS.</h1>
+                                <h1 className=' py-4 px-10 text-red-500'>Qui survivra ?</h1>
                                 <div className=' flex gap-10 py-10 px-5 md:px-15'>
                                     <a href="https://youtu.be/AURVxvIZrmU?feature=shared">
-                                        <div className='text-center items-center border-6 border-red-600 hover:border-amber-300 h-15 w-60 bg-white rounded-4xl hover:bg-cyan-300'>
-                                            <h1 className=' py-2 text-black text-2xl '>Watch Trailer</h1>
+                                        <div className='text-center items-center border-6 border-red-600 hover:border-amber-300 h-15 md:h-25 w-60 bg-white rounded-4xl hover:bg-cyan-300'>
+                                            <h1 className=' py-2 text-black text-xl md:text-2xl '>Regarder la bande-annonce</h1>
                                         </div></a>
                                     <a href="">
-                                        <div className=' hover:bg-cyan-300 text-center border-6 border-amber-300 h-15 w-60 hover:border-red-600 bg-white rounded-4xl'>
-                                            <h1 className=' py-2 text-black text-2xl  '>Learn More</h1>
+                                        <div className=' hover:bg-cyan-300 text-center border-6 border-amber-300 h-15 md:h-25 w-60 hover:border-red-600 bg-white rounded-4xl'>
+                                            <h1 className=' py-2 text-black text-xl md:text-2xl '>Apprendre encore plus</h1>
                                         </div>
                                     </a>
                                 </div>

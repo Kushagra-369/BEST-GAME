@@ -7,14 +7,14 @@ import { RxCross1 } from "react-icons/rx";
 import { Link, Element } from 'react-scroll';
 
 
-export default function Navbar() {
+export default function Navbar4() {
 
     let data = [
-        { title1: "Top games", title2: "games" },
-        { title1: "News", title2: "news" },
-        { title1: "Store ", title2: "new" },
-        { title1: "Support ", title2: "support" },
-        { title1: "Best one ", title2: "best" },
+        { title1: "Meilleurs jeux", title2: "games" },
+        { title1: "Nouvelles", title2: "news" },
+        { title1: "Magasin ", title2: "new" },
+        { title1: "Soutien ", title2: "support" },
+        { title1: "Le meilleur ", title2: "best" },
     ]
 
 

@@ -5,7 +5,7 @@ import { IoLogoGameControllerB } from "react-icons/io";
 import { FaDiscord } from "react-icons/fa6";
 import { Element } from 'react-scroll';
 
-export default function About() {
+export default function About2() {
     const navigate = useNavigate();
 
     const data = [
@@ -64,15 +64,15 @@ export default function About() {
 
                     {/* Footer */}
                     <div className='text-2xl text-white py-20 px-10 grid grid-cols-1 gap-2'>
-                        <h1>LIFE IS STRANGE © Square Enix Ltd.</h1>
-                        <h1>DONTNOD and DONTNOD Entertainment are registered trademarks of DONTNOD Entertainment, S.A.</h1>
-                        <h1>DECK NINE and DECK NINE GAMES are registered trademarks of Idol Minds, LLC.</h1>
-                        <h1>Steam and the Steam logo are trademarks and/or registered trademarks of Valve Corporation in the U.S. and/or other countries.</h1>
-                        <h1>Microsoft, the Xbox Sphere mark, the Series X logo, Series S logo, Series X|S logo, Xbox One, Xbox Series X, Xbox Series S, and Xbox Series X|S are trademarks of the Microsoft group of companies.</h1>
-                        <h1>"PlayStation Family Mark", "PlayStation", "PS5 logo" and "PS4 logo" are registered trademarks or trademarks of Sony Interactive Entertainment Inc.</h1>
-                        <h1>Nintendo Switch is a trademark of Nintendo.</h1>
-                        <h1>ESRB and the ESRB rating icon are registered trademarks of the Entertainment Software Association</h1>
-                        <h1>All other trademarks are the property of their respective owners.</h1>
+                       <h1>LIFE IS STRANGE © Square Enix Ltd.</h1>
+                        <h1>DONTNOD और DONTNOD एंटरटेनमेंट, DONTNOD एंटरटेनमेंट, S.A. के पंजीकृत ट्रेडमार्क हैं।</h1>
+                        <h1>डेक नाइन और डेक नाइन गेम्स आइडल माइंड्स, एलएलसी के पंजीकृत ट्रेडमार्क हैं।</h1>
+                        <h1>स्टीम और स्टीम लोगो अमेरिका और/या अन्य देशों में वाल्व कॉर्पोरेशन के ट्रेडमार्क और/या पंजीकृत ट्रेडमार्क हैं।</h1>
+                        <h1>Microsoft, Xbox Sphere मार्क, सीरीज X लोगो, सीरीज S लोगो, सीरीज X|S लोगो, Xbox One, Xbox सीरीज X, Xbox सीरीज S और Xbox सीरीज X|S माइक्रोसॉफ्ट समूह की कंपनियों के ट्रेडमार्क हैं।</h1>
+                        <h1>"PlayStation फ़ैमिली मार्क", "PlayStation", "PS5 लोगो" और "PS4 लोगो" सोनी इंटरएक्टिव एंटरटेनमेंट इंक. के पंजीकृत ट्रेडमार्क या ट्रेडमार्क हैं।</h1>
+                        <h1>निंटेंडो स्विच निनटेंडो का ट्रेडमार्क है।</h1>
+                        <h1>ESRB और ESRB रेटिंग आइकन एंटरटेनमेंट सॉफ्टवेयर एसोसिएशन के पंजीकृत ट्रेडमार्क हैं</h1>
+                        <h1>अन्य सभी ट्रेडमार्क उनके संबंधित स्वामियों की संपत्ति हैं।</h1>
                         {/* More legal text */}
                     </div>
                 </div>

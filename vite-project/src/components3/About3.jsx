@@ -5,7 +5,7 @@ import { IoLogoGameControllerB } from "react-icons/io";
 import { FaDiscord } from "react-icons/fa6";
 import { Element } from 'react-scroll';
 
-export default function About() {
+export default function About3() {
     const navigate = useNavigate();
 
     const data = [
@@ -64,15 +64,15 @@ export default function About() {
 
                     {/* Footer */}
                     <div className='text-2xl text-white py-20 px-10 grid grid-cols-1 gap-2'>
-                        <h1>LIFE IS STRANGE © Square Enix Ltd.</h1>
-                        <h1>DONTNOD and DONTNOD Entertainment are registered trademarks of DONTNOD Entertainment, S.A.</h1>
-                        <h1>DECK NINE and DECK NINE GAMES are registered trademarks of Idol Minds, LLC.</h1>
-                        <h1>Steam and the Steam logo are trademarks and/or registered trademarks of Valve Corporation in the U.S. and/or other countries.</h1>
-                        <h1>Microsoft, the Xbox Sphere mark, the Series X logo, Series S logo, Series X|S logo, Xbox One, Xbox Series X, Xbox Series S, and Xbox Series X|S are trademarks of the Microsoft group of companies.</h1>
-                        <h1>"PlayStation Family Mark", "PlayStation", "PS5 logo" and "PS4 logo" are registered trademarks or trademarks of Sony Interactive Entertainment Inc.</h1>
-                        <h1>Nintendo Switch is a trademark of Nintendo.</h1>
-                        <h1>ESRB and the ESRB rating icon are registered trademarks of the Entertainment Software Association</h1>
-                        <h1>All other trademarks are the property of their respective owners.</h1>
+                       <h1>ライフ イズ ストレンジ © Square Enix Ltd.</h1>
+                        <h1>DONTNOD および DONTNOD Entertainment は、DONTNOD Entertainment, S.A. の登録商標です。</h1>
+                        <h1>DECK NINE および DECK NINE GAMES は Idol Minds, LLC の登録商標です。</h1>
+                        <h1>Steam および Steam ロゴは、米国および/またはその他の国における Valve Corporation の商標および/または登録商標です。</h1>
+                        <h1>Microsoft、Xbox Sphere マーク、Series X ロゴ、Series S ロゴ、Series X|S ロゴ、Xbox One、Xbox Series X、Xbox Series S、および Xbox Series X|S は、Microsoft グループ企業の商標です。</h1>
+                        <h1>「PlayStation ファミリーマーク」、「PlayStation」、「PS5 ロゴ」、「PS4 ロゴ」は株式会社ソニー・インタラクティブエンタテインメントの登録商標または商標です。</h1>
+                        <h1>Nintendo Switch は任天堂の商標です。</h1>
+                        <h1>ESRB および ESRB 評価アイコンは Entertainment Software Association の登録商標です</h1>
+                        <h1>その他すべての商標は、それぞれの所有者の財産です。</h1>
                         {/* More legal text */}
                     </div>
                 </div>

@@ -5,7 +5,7 @@ import { IoLogoGameControllerB } from "react-icons/io";
 import { FaDiscord } from "react-icons/fa6";
 import { Element } from 'react-scroll';
 
-export default function About() {
+export default function About5() {
     const navigate = useNavigate();
 
     const data = [
@@ -64,15 +64,15 @@ export default function About() {
 
                     {/* Footer */}
                     <div className='text-2xl text-white py-20 px-10 grid grid-cols-1 gap-2'>
-                        <h1>LIFE IS STRANGE © Square Enix Ltd.</h1>
-                        <h1>DONTNOD and DONTNOD Entertainment are registered trademarks of DONTNOD Entertainment, S.A.</h1>
-                        <h1>DECK NINE and DECK NINE GAMES are registered trademarks of Idol Minds, LLC.</h1>
-                        <h1>Steam and the Steam logo are trademarks and/or registered trademarks of Valve Corporation in the U.S. and/or other countries.</h1>
-                        <h1>Microsoft, the Xbox Sphere mark, the Series X logo, Series S logo, Series X|S logo, Xbox One, Xbox Series X, Xbox Series S, and Xbox Series X|S are trademarks of the Microsoft group of companies.</h1>
-                        <h1>"PlayStation Family Mark", "PlayStation", "PS5 logo" and "PS4 logo" are registered trademarks or trademarks of Sony Interactive Entertainment Inc.</h1>
-                        <h1>Nintendo Switch is a trademark of Nintendo.</h1>
-                        <h1>ESRB and the ESRB rating icon are registered trademarks of the Entertainment Software Association</h1>
-                        <h1>All other trademarks are the property of their respective owners.</h1>
+                       <h1>A VIDA É ESTRANHA © Square Enix Ltd.</h1>
+                        <h1>DONTNOD e DONTNOD Entertainment são marcas registradas da DONTNOD Entertainment, S.A.</h1>
+                        <h1>DECK NINE e DECK NINE GAMES são marcas registradas da Idol Minds, LLC.</h1>
+                        <h1>Steam e o logotipo Steam são marcas comerciais e/ou marcas registradas da Valve Corporation nos EUA e/ou em outros países.</h1>
+                        <h1>Microsoft, a marca Xbox Sphere, o logotipo da Série X, o logotipo da Série S, o logotipo da Série X|S, Xbox One, Xbox Series X, Xbox Series S e Xbox Series X|S são marcas registradas do grupo de empresas Microsoft.</h1>
+                        <h1>"PlayStation Family Mark", "PlayStation", "PS5 logo" e "PS4 logo" são marcas registradas ou marcas comerciais da Sony Interactive Entertainment Inc.</h1>
+                        <h1>Nintendo Switch é uma marca registrada da Nintendo.</h1>
+                        <h1>ESRB e o ícone de classificação ESRB são marcas registradas da Entertainment Software Association</h1>
+                        <h1>Todas as outras marcas registradas são propriedade de seus respectivos proprietários.</h1>
                         {/* More legal text */}
                     </div>
                 </div>

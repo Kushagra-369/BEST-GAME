@@ -74,7 +74,7 @@ export default function Navbar() {
                                     <ul className=' text-4xl  fixed top-20 right-0 h-120 w-120 bg-black  z-40 shadow-lg transition-all duration-300'>
                                         <div className=' text-center items-center  p-10'>
                                             <div className='text-white items-center border-2 border-red-600 h-20 w-100 px-5 py-4 right-2 bg-red-600'>
-                                                <a href="https://membership.square-enix.com/users/sign_in"><h1>LOGIN</h1></a>
+                                                <a href="/login"><h1>LOGIN</h1></a>
                                             </div>
                                             <div>
                                                 <h1 className=' text-xl py-4'>Not a Square Enix Member?</h1>

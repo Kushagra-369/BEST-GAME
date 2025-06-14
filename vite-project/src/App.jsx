@@ -29,6 +29,7 @@ import Part1b from './components2/Part1b.jsx'
 import Part1c from './components3/Part1c.jsx'
 import Part1d from './components4/Part1d.jsx'
 import Part1e from './components5/Part1e.jsx'
+import Login from './components/Login.jsx'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
 export default function App() {
@@ -37,6 +38,7 @@ export default function App() {
       <BrowserRouter>
         <Routes>
           <Route path='' element={<Navbar />} />
+          <Route path='/login' element={<Login/>}/>
           <Route path='about2' element={<Navbar2 />} />
           <Route path='about3' element={<Navbar3 />} />
           <Route path='about4' element={<Navbar4 />} />
@@ -80,6 +82,7 @@ export default function App() {
           <Route path='about4' element={<About4 />} />
           <Route path='about5' element={<About5 />} />
         </Routes>
+
 
       </BrowserRouter>
     </div>
